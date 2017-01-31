@@ -1,0 +1,1 @@
+﻿CREATE TABLE Class (Class int, Section int, Teacher varchar(20), Room int, Time varchar(5), Days varchar(5), Enrollment int,PRIMARY KEY (Room, Time, Days),FOREIGN KEY (Room) REFERENCES Room(Room),FOREIGN KEY (Teacher) REFERENCES Office(Teacher));
